@@ -1,0 +1,49 @@
+.homebg {
+  background-image: url('../assets/img/nyc.jpg');
+  background-position: top right;
+
+    height: 100%;
+    position: static;
+  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.list {
+  position: relative;
+  left: 5px;
+}
+.list li {
+  font-size: 12px;
+  color: rgb(171, 171, 171);
+  font-style: italic;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.more {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+.more a{
+  color: ivory;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boot {
+  position: relative;
+  left: 150px;
+  
+}
+
+.boot a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+}
